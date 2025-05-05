@@ -14,7 +14,6 @@ namespace FolyModTask
             new Resource(3, 2)
         };
 
-            // Define resource shifts (availability intervals)
             resources[0].Shifts.Add((0, 10));
             resources[0].Shifts.Add((15, 25));
             resources[1].Shifts.Add((5, 20));
